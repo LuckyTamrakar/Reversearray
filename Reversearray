@@ -1,0 +1,21 @@
+# Reversearray
+import java.util.*;
+ 
+public class reversel{
+    public static void main(String[] args) 
+    {         
+        ArrayList<String> array = new ArrayList<String>(); 
+       
+        array.add("A");         
+        array.add("B");        
+        array.add("C");
+        array.add("D");
+        array.add("E");         
+        array.add("F");
+        System.out.println("Before Reverse ArrayList:");         
+        System.out.println(array);
+        Collections.reverse(array);
+        System.out.println("After Reverse ArrayList:");         
+        System.out.println(array);
+    }
+}
